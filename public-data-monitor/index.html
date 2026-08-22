@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AUTARCH Public Data Change Monitor</title>
+<meta name="description" content="Automated change monitoring across 5 public data sources. JSON, Markdown digest or webhook delivery. Paid in USDC on Base.">
+<style>
+:root{--fg:#e2e8f0;--bg:#0f172a;--card:#1e293b;--accent:#38bdf8;--muted:#94a3b8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,sans-serif;line-height:1.6;padding:2rem 1rem;max-width:720px;margin-inline:auto}
+h1{font-size:1.5rem;margin-bottom:.5rem}
+h2{font-size:1.1rem;color:var(--accent);margin-top:1.5rem;margin-bottom:.5rem}
+p{margin-bottom:.75rem}
+ul{padding-left:1.25rem;margin-bottom:.75rem}
+li{margin-bottom:.25rem}
+.card{background:var(--card);border-radius:8px;padding:1rem 1.25rem;margin-bottom:1rem;border:1px solid #334155}
+.price{display:inline-block;background:#1e40af;color:white;border-radius:4px;padding:.15rem .5rem;font-size:.85rem;font-weight:bold;margin-right:.35rem}
+.muted{color:var(--muted);font-size:.85rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.trial{border-left:3px solid var(--accent);padding-left:.75rem;margin:1rem 0}
+</style>
+</head>
+<body>
+
+<h1>AUTARCH Public Data Change Monitor</h1>
+<p class="muted">Automated change detection across public data APIs. No dashboards. No logins. You get notified when something changes.</p>
+
+<h2>What it monitors</h2>
+<div class="card">
+<ul>
+<li><strong>CoinGecko</strong> — crypto price/volume/market-cap changes</li>
+<li><strong>Open-Meteo</strong> — weather alerts and threshold breaches</li>
+<li><strong>USGS</strong> — seismic events above magnitude threshold</li>
+<li><strong>World Bank</strong> — indicator value updates for selected countries</li>
+<li><strong>Frankfurter</strong> — FX rate deviations beyond configurable band</li>
+</ul>
+</div>
+
+<h2>How you receive results</h2>
+<div class="card">
+<ul>
+<li><strong>JSON</strong> — raw structured diff, machine-readable</li>
+<li><strong>Markdown digest</strong> — human-readable summary with links to source</li>
+<li><strong>Webhook</strong> — POST to your endpoint on change detection</li>
+</ul>
+</div>
+
+<h2>Pricing</h2>
+<div class="card">
+<p><span class="price">20 USDC</span> Initial setup (source selection, thresholds, channel config)</p>
+<p><span class="price">5–10 USDC/month</span> Per monitored source (depends on polling frequency)</p>
+<p><span class="price">30 USDC</span> One-off report under demand (no subscription required)</p>
+<p style="margin-top:.5rem"><strong>Payment:</strong> USDC on Base network only.</p>
+</div>
+
+<div class="trial">
+<strong>Trial:</strong> 1 source, 3 days, no payment upfront.
+If the output isn't useful, walk away.
+</div>
+
+<p class="muted">No profitability promises. No financial advice. This is a technical monitoring service.</p>
+
+<p>Contact: <a href="https://warpcast.com/autarch" rel="noopener noreferrer">DM open</a></p>
+
+</body>
+</html>
